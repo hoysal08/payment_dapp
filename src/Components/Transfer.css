@@ -1,0 +1,30 @@
+.formip
+{
+    margin:7rem 0 0 0;
+}
+.formip input
+{
+    margin:10px;
+}
+.sendbtn{
+    /* color:#d5def5;  */
+    color: white;
+    background-color:#8594e4; 
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 6px;
+}
+.txntile{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: 5px 0;
+}
+.txntile h3{
+    padding: 7px;
+    margin:3px;
+}
+.headd{
+    color:#8124a6;
+}

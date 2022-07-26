@@ -1,0 +1,20 @@
+.tile-rw{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: #d5def5;
+    color: #430f58;
+   
+}
+.tile-rw h2{
+    margin-right: 40px;
+}
+.tile-rw h3{
+    margin-right: 10px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    padding: 0 10px;
+}

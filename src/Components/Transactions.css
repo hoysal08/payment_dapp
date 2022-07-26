@@ -1,0 +1,23 @@
+
+.sendbtn{
+    color: white;
+    background-color:#8594e4; 
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 6px;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    position:relative;
+    top:6px;
+}
+.ethscan
+{
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+}
+.headd{
+    color:#8124a6;
+}

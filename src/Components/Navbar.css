@@ -1,0 +1,36 @@
+.navbar
+{
+    background: #8594e4; 
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: #e0e4ee; 
+    
+}
+.navbarlnk{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.navbarlnk h2{
+    padding: 0 15px;
+   
+ 
+}
+.tagss{
+ text-decoration:none;
+    color:#551A8B;
+}
+
+.wallet-btn
+{
+    padding-right: 10px;
+    
+}
+.wlt-btn{
+    color:#d5def5; 
+    background-color:#8124a6;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 6px;
+}
