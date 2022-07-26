@@ -16,12 +16,13 @@ function Navbar() {
         const signer = await provider.getSigner();
        
         const addr = await signer.getAddress();
+        toggleConnect(true)
         updateAddress(addr);
       }
 
     async function connectWebsite() {
 
-        /*
+        
         const chainId = await window.ethereum.request({ method: 'eth_chainId' });
         if(chainId !== '0x5')
         {
@@ -30,13 +31,13 @@ function Navbar() {
             method: 'wallet_switchEthereumChain',
             params: [{ chainId: '0x5' }],
          })
-        } */
+        } 
 
         await window.ethereum.request({ method: 'eth_requestAccounts' })
           .then(() => {
             //updateButton();
             getAddress();
-            window.location.replace(location.pathname)
+            // window.location.replace(location.pathname)
           });
     }
 
@@ -48,16 +49,17 @@ function Navbar() {
         if(val)
         {
           getAddress();
-          toggleConnect(val);
-         //updateButton();
+          // toggleConnect(val);
         }
+      
+       
     
-        window.ethereum.on('accountsChanged', function(accounts){
-          window.location.replace(location.pathname)
+        window.ethereum.on('accountsChanged', function(){
+          getAddress();
         })
       });
       // console.log(currAddress)
-
+    
   return (
     <div className="navbar">
          <div className='navbarlnk'>
@@ -66,6 +68,7 @@ function Navbar() {
             <h2><Link to="/faucet" className='tagss'>Faucet</Link></h2>
          </div>
         <div className='wallet-btn'>
+
        <button className="wlt-btn" onClick={connectWebsite}> {connected? "Connected":"Connect Wallet"}</button><br></br>
           {currAddress !== "0x" ? "Connected to":"Not Connected"} {currAddress !== "0x" ? (currAddress.substring(0,15)+'...'):""}
         </div>

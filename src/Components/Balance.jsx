@@ -114,7 +114,7 @@ function Balance() {
 
   return (
     <div>
-      {!(metadata.length>20)?(<div class="loader">Loading...</div>):(  <div>
+      {!connected?(<h1>Please connect your wallet to check balance</h1>):(<div>{!(metadata.length>20)?(<div class="loader">Loading...</div>):(  <div>
       <h1 className="headd">Balance of top 20 ERC-20's held by you</h1>
    
       { 
@@ -124,8 +124,9 @@ function Balance() {
         })):<div>Please connect your Metamask to view balance</div>
       }
       
-     {/* {(metadata.length<8) && (<button onClick={req} className="btn">Get Balance</button>)} */}
-    </div>)}
+    </div>)}</div>
+      )}
+      
   
 </div>
   )
