@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/payment_dapp/static/css/main.3857896a.css",
+    "main.js": "/payment_dapp/static/js/main.e7fa9e18.js",
+    "index.html": "/payment_dapp/index.html",
+    "main.3857896a.css.map": "/payment_dapp/static/css/main.3857896a.css.map",
+    "main.e7fa9e18.js.map": "/payment_dapp/static/js/main.e7fa9e18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3857896a.css",
+    "static/js/main.e7fa9e18.js"
+  ]
+}
