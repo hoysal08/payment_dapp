@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/payment_dapp/static/css/main.3857896a.css",
-    "main.js": "/payment_dapp/static/js/main.e7fa9e18.js",
+    "main.js": "/payment_dapp/static/js/main.c761c691.js",
     "index.html": "/payment_dapp/index.html",
     "main.3857896a.css.map": "/payment_dapp/static/css/main.3857896a.css.map",
-    "main.e7fa9e18.js.map": "/payment_dapp/static/js/main.e7fa9e18.js.map"
+    "main.c761c691.js.map": "/payment_dapp/static/js/main.c761c691.js.map"
   },
   "entrypoints": [
     "static/css/main.3857896a.css",
-    "static/js/main.e7fa9e18.js"
+    "static/js/main.c761c691.js"
   ]
 }
