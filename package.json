@@ -14,7 +14,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://hoysal08.github.io/payment_dapp",
+  "homepage": "http://hoysal08.github.io/payment_dapp/",
   "scripts": {
     
     "predeploy": "npm run build",

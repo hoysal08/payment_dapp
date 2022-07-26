@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
    <div className="content">
-    <Routes>
+    <Routes basename="http://hoysal08.github.io/payment_dapp">
       <Route  path='/' element={<Transfer/>}/>
 
       <Route  path='/balance' element={<Balance/>} />
