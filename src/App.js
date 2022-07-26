@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router,Route, Routes} from 'react-router-dom'
+import {HashRouter as Router,Route, Routes} from 'react-router-dom'
 import Navbar from './Components/Navbar';
 import Balance from './Components/Balance';
 import Transactions from './Components/Transactions';
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
    <div className="content">
-    <Routes basename="http://hoysal08.github.io/payment_dapp">
+    <Routes >
       <Route  path='/' element={<Transfer/>}/>
 
       <Route  path='/balance' element={<Balance/>} />
